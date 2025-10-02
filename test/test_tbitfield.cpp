@@ -309,3 +309,14 @@ TEST(TBitField, bitfields_with_different_bits_are_not_equal)
 
   EXPECT_NE(bf1, bf2);
 }
+TEST(SimpleMath, SumOfOddNumbers) {
+    // 1+3+5+7+9 = 25 = 5^2
+    int sum1 = 1 + 3 + 5 + 7 + 9;
+    EXPECT_EQ(sum1, 25);
+    EXPECT_EQ(sum1, 5 * 5);
+    
+    // 1+3+5+7+9+11 = 36 = 6^2
+    int sum2 = 1 + 3 + 5 + 7 + 9 + 11;
+    EXPECT_EQ(sum2, 36);
+    EXPECT_EQ(sum2, 6 * 6);
+}
