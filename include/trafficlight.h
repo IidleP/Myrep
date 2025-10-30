@@ -5,6 +5,7 @@
 
 class Light {
 public:
+    virtual ~Light() = default;
     virtual void switch_light() = 0;
     virtual bool isGreen() const = 0;
     virtual bool isYellow() const = 0;
@@ -27,7 +28,6 @@ private:
     TBitField state;
 public:
     car_Light();
-    ~car_Light() = 0;
     void switch_light() override;
     bool isGreen() const override;
     bool isYellow() const override;

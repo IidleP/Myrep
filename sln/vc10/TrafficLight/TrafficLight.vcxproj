@@ -140,11 +140,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\trafficlight\main.cpp" />
-    <ClCompile Include="..\..\..\trafficlight\trafficlight.cpp" />
+    <ClInclude Include="trafficlight.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\include\trafficlight.h" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="trafficlight.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
