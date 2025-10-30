@@ -1,0 +1,7 @@
+C:/Users/Илья/Desktop/GitLab1/Myrep/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Илья/Desktop/GitLab1/Myrep/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Илья/Desktop/GitLab1/Myrep/build/src/CMakeFiles/set.dir
+C:/Users/Илья/Desktop/GitLab1/Myrep/build/samples/CMakeFiles/sample_prime_numbers.dir
+C:/Users/Илья/Desktop/GitLab1/Myrep/build/gtest/CMakeFiles/gtest.dir
+C:/Users/Илья/Desktop/GitLab1/Myrep/build/test/CMakeFiles/test_set.dir
+C:/Users/Илья/Desktop/GitLab1/Myrep/build/trafficlight/CMakeFiles/trafficlight.dir

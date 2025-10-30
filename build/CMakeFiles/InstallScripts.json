@@ -1,0 +1,12 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/\u0418\u043b\u044c\u044f/Desktop/GitLab1/Myrep/build/cmake_install.cmake",
+		"C:/Users/\u0418\u043b\u044c\u044f/Desktop/GitLab1/Myrep/build/src/cmake_install.cmake",
+		"C:/Users/\u0418\u043b\u044c\u044f/Desktop/GitLab1/Myrep/build/samples/cmake_install.cmake",
+		"C:/Users/\u0418\u043b\u044c\u044f/Desktop/GitLab1/Myrep/build/gtest/cmake_install.cmake",
+		"C:/Users/\u0418\u043b\u044c\u044f/Desktop/GitLab1/Myrep/build/test/cmake_install.cmake",
+		"C:/Users/\u0418\u043b\u044c\u044f/Desktop/GitLab1/Myrep/build/trafficlight/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
