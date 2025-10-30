@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.8)
+cmake_minimum_required(VERSION 3.10)
 
 set(PROJECT_NAME set)
 project(${PROJECT_NAME})
@@ -26,6 +26,10 @@ add_subdirectory(samples)
 add_subdirectory(gtest)
 add_subdirectory(test)
 
+add_subdirectory(trafficlight)
+
+
+
 # REPORT
 message( STATUS "")
 message( STATUS "General configuration for ${PROJECT_NAME}")
@@ -33,3 +37,5 @@ message( STATUS "======================================")
 message( STATUS "")
 message( STATUS "   Configuration: ${CMAKE_BUILD_TYPE}")
 message( STATUS "")
+
+

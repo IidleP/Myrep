@@ -4,7 +4,7 @@
 //   Переработано для Microsoft Visual Studio 2008 Сысоевым А.В. (19.04.2015)
 //
 // Битовое поле
-
+//Светофор сюдым. 48 - нахер
 #include "tbitfield.h"
 #include "iostream"
 #include "string"
@@ -45,7 +45,6 @@ TBitField::TBitField(const TBitField &bf) // конструктор копиро
 TBitField::~TBitField()
 {
     delete[] pMem;  
-    pMem = nullptr;  // обнуление указателя на всякий случай
 }
 
 int TBitField::GetMemIndex(const int n) const // индекс Мем для бита n
@@ -143,7 +142,7 @@ int TBitField::operator==(const TBitField &bf) const // сравнение
 int TBitField::operator!=(const TBitField &bf) const // сравнение
 {
     // через ==
-    return !(*this == bf);
+    return ~(*this == bf);
 }
 
 TBitField TBitField::operator|(const TBitField &bf) // операция "или"
